@@ -34,6 +34,7 @@ public class CheckoutTests extends BaseClass {
 		System.out.println(driver.getCurrentUrl());
 		Assert.assertEquals("https://en.wikipedia.org/wiki/Selenium_(software)#Selenium_WebDriver", driver.getCurrentUrl());
 		driver.close();
+		System.out.println("this is the latest commit change test");
 	
 	}
 
