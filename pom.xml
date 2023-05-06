@@ -90,6 +90,11 @@
 					<version>3.0.0</version>
 					<configuration>
 						<suiteXmlFiles>${filename}</suiteXmlFiles>
+						<systemPropertyVariables>
+							<executionBrowser>${browser}</executionBrowser>
+							<appURL>${url}</appURL>
+						</systemPropertyVariables>
+						
 					</configuration>
 				</plugin>
 
