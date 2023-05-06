@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="languageLine">
+
+	<listeners>
+		<listener class-name="com.languageLine.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Voice_Of_The_Customer">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<!-- <class name="com.languageLine.testCases.TC_VoiceOfTheCustomer_HappyPath" /> -->
+			<!--  <class name="com.languageLine.testCases.TC_VoiceOfTheCustomer_NegativeTests" /> -->
+			<!--  <class name="com.languageLine.testCases.TC_VoiceOfTheCustomer_HappyPath" /> -->
+			 <class name="com.languageLine.testCases.BrowsingMainCategoriesTests" />
+			<class name="com.languageLine.testCases.ShoppingCartTests" />
+			<class name="com.languageLine.testCases.CheckoutTests" /> 
+			
+		</classes>
+	</test>
+
+</suite>
