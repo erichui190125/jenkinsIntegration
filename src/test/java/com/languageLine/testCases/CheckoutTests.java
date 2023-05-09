@@ -10,7 +10,7 @@ public class CheckoutTests extends BaseClass {
 	
 
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void fillInAllRequiredFieldsAndPurchaseItems () throws InterruptedException {
 		hp.clickOnFirstItem();
 		pp.clickOnAddToCartButton();
@@ -26,7 +26,7 @@ public class CheckoutTests extends BaseClass {
 	
 	}
 	
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void sonyDemo () throws InterruptedException {
 		
 		driver.get("https://en.wikipedia.org/wiki/Selenium_(software)#Selenium_WebDriver");
